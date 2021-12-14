@@ -475,7 +475,7 @@ public class VentanaCalculadora2 extends javax.swing.JFrame {
         if (operacion.equals("%")) {
             operando1 = (operando1 /100)* operando2;
         }
-        pantalla.setText("" + operando1);        // TODO add your handling code here:
+        pantalla.setText("" + operando1);        
     }//GEN-LAST:event_BotonIgualActionPerformed
 
     private void BotonMultiplicacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonMultiplicacionActionPerformed
